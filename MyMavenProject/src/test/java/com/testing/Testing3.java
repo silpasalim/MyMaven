@@ -19,7 +19,7 @@ public class Testing3 {
   public void mainTest() {
 	  System.out.println("I am in main test");
 	  System.out.println("Before Assertion");
-	  softAssert.assertTrue(2>3,"Verifying Element");
+	  softAssert.assertTrue(4>3,"Verifying Element");
 	  System.out.println("After Assertion");
 	  softAssert.assertAll();//Similar to Error COLLECTOR
   }  
@@ -27,7 +27,7 @@ public class Testing3 {
   public void endTest() {
 	  System.out.println("I am in end test");
 	  System.out.println("Before Assertion");
-	  Assert.assertTrue(2>3,"Verifying Element");
+	  Assert.assertTrue(4>3,"Verifying Element");
 	  System.out.println("After Assertion");
 	  Assert.assertEquals("abc", "abc");
 	  System.out.println("After Second Assertion");
